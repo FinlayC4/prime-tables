@@ -4,6 +4,7 @@ import { generatePrimes } from "./generatePrimes.js";
 import { getNumOfPrimesFromInput } from "./getNumOfPrimesFromInput.js";
 
 async function run() {
+    // This will return a positive number
     const numberOfPrimes = await getNumOfPrimesFromInput();
 
     // Generate the number of primes provided by the user

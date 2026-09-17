@@ -40,6 +40,7 @@ function generatePrimes(numOfPrimes) {
             if (prime > squareRoot) break;
 
             // A divisor means the candidate is not prime
+            // Is candidate divisible by prime with no remainder?
             if (candidate % prime === 0) {
                 isPrime = false;
                 break;
