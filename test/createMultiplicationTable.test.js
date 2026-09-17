@@ -27,6 +27,7 @@ test("creates a square table matching the number of primes", () => {
     const table = createMultiplicationTable([2, 3, 5]);
 
     expect(table).toHaveLength(3);
+    // Verifies length of each inner array is 3
     expect(table.every(row => row.length === 3)).toBe(true);
 });
 
