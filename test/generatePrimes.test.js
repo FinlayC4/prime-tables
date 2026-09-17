@@ -1,4 +1,4 @@
-import generatePrimes from "../src/generatePrimes.js"
+import { generatePrimes } from "../src/generatePrimes.js"
 
 describe("generatePrimes", () => {
     // Test the lowest boundary, especially since first prime number, 2
